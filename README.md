@@ -1,5 +1,5 @@
-## 👋 Hello, I'm Ram Gupta!
-🚀 **Facilitator | AI/ML, Blockchain | [Your Passion]**
+## 👋 Hello, I'm Smriti Karki!
+🚀 **Facilitator | AI/ML, Blockchain | Data Analytics**
 
 🔹 Passionate about **[mention key skills/topics]**  
 🔹 Currently working on **[project name or company name]**  
