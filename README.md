@@ -1,8 +1,7 @@
 ## 👋 Hello, I'm Smriti Karki!
 🚀 **Facilitator | AI/ML, Blockchain | Data Analytics**
 
-🔹 Passionate about **[mention key skills/topics]**  
-🔹 Currently working on **[project name or company name]**  
+🔹 Passionate about Data Science
 🔹 Open to collaborating on **[mention types of projects]**  ..
 🔹 Learning **[any new technology or skill you're exploring]**  
 
