@@ -11,8 +11,8 @@ This bootcamp is focused on building real-world data analysis skills using:
 - **Python** for data processing and scripting
 - **Jupyter Notebooks** for exploratory data analysis and reporting
 - **Pandas & NumPy** for working with structured data
-- **Matplotlib & Seaborn** for data visualization
-- **SQL** for querying databases *(if included later)*
+- **Matplotlib** for data visualization
+- **SQL** for querying databases 
 - **Git & GitHub** for version control and collaboration
 
 ---
