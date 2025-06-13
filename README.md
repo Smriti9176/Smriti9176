@@ -38,16 +38,15 @@ This project aimed to scrape, clean, and preprocess movie rating data from IMDbâ
 1. **Scraping**  
    - Retrieved IMDb Top 250 data using the `requests` library and parsed it with `BeautifulSoup`.
    - Bypassed bot detection by including a custom **user-agent header** in the HTTP request.
+   - Extracted movie data from embedded JSON (<script type="application/ld+json">), allowing for a more structured and complete dataset.
 
 2. **Cleaning**  
-   - Checked for and handled missing values (none found).
-   - Removed duplicates (none found).
+   - Checked for and handled missing values.
+   - Removed duplicates.
    - Standardized and cleaned textual fields.
 
 3. **Preprocessing**
    - Converted ISO 8601 duration (e.g., `PT2H32M`) into both `Duration_Minutes` and a readable format like `2H 32M`.
-   - Extracted main genre from genre list.
-   - Converted numeric fields into appropriate types.
 
 ---
 
