@@ -50,6 +50,17 @@ This project aimed to scrape, clean, and preprocess movie rating data from IMDbâ
 
 ---
 
+## Functionalization
+The code is written in logically separated sections within Jupyter Notebooks for scraping, cleaning, preprocessing, and exporting.
+
+Each section is clearly marked with comments to guide the user.
+
+The project is structured for easy readability and future improvements.
+
+README and notebook markdown cells serve as documentation for understanding the workflow and outputs.
+
+---
+
 ## ðŸš§ Challenges & Solutions:
 
 | Challenge | Solution |
