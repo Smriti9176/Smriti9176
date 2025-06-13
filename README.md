@@ -79,7 +79,7 @@ requests.get(url, headers=headers)
 
 ## 📁 Output:
 
-- Final cleaned dataset: `IMDb_Final_Dataset.csv`
+- Final cleaned dataset: `final_IMDB_dataset.csv`
 - Columns include: Title, Rating, Genre, Duration_Minutes, URL, Description, etc.
 - Final dataset is ready for EDA, visualization, or modeling.
 
