@@ -1,0 +1,53 @@
+IMDb Movie Ratings - Project Report
+
+Project Description:
+This project involved scraping, cleaning, and preprocessing data from IMDb’s Top 250 movies list. The objective was to transform unstructured web data into a well-organized and usable dataset for analysis or modeling.
+
+Tools Used:
+- Python 3
+- Requests – for accessing the IMDb webpage
+- BeautifulSoup (bs4) – for HTML parsing
+- Pandas – for data manipulation
+- Regex (re) – for formatting duration and genre fields
+
+Process Summary:
+
+Scraping:
+- Accessed the IMDb Top 250 page using the requests library.
+- Bypassed scraping restrictions (HTTP Error 430) by adding a User-Agent header that mimics a real browser.
+- Parsed the HTML using BeautifulSoup.
+- Switched to extracting data from the embedded JSON inside <script type="application/ld+json"> for cleaner and more structured content.
+
+Cleaning:
+- Checked for missing values (none found).
+- Checked and removed duplicates (none found).
+- Standardized text fields like genre and duration for consistency.
+
+Preprocessing:
+- Parsed and reformatted the ISO 8601 duration (e.g., PT2H32M) into both:
+    • A readable string format like "2H 32M"
+    • A numeric format in total minutes
+- Extracted the primary genre from multiple listed genres.
+- Converted appropriate columns to correct data types (e.g., float for rating, int for duration).
+
+Challenges and Solutions:
+
+1. IMDb Blocking Requests:
+   Solution: Used a user-agent in the headers to bypass restrictions.
+   Code snippet:
+   headers = {
+       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+   }
+   requests.get(url, headers=headers)
+
+2. Difficulty parsing titles/ratings from HTML tables:
+   Solution: Switched to parsing structured JSON data embedded in the page.
+
+3. Duration in ISO Format:
+   Solution: Used regex to convert the ISO string (e.g., PT2H30M) to total minutes and a readable time string.
+
+Output:
+- Final cleaned dataset: final_IMDB_dataset.csv
+- Includes fields like: Title, Rating, Genre, Duration_Minutes, URL, Description, etc.
+- Ready for exploratory data analysis, visualization, or further machine learning modeling.
+
