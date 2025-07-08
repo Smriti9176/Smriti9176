@@ -1,0 +1,55 @@
+#EDA - Exploratory Data Analysis
+#tidyverse - data wrangling and visualization
+install.packages("tidyverse") # tidyverse - data wrangling and visualization
+
+library(tidyverse)
+
+#install packages
+install.packages(c("dplyr","skimr", "GGally", "corrplot"))
+install.packages("DataExplorer", dependencies = TRUE)
+
+library(dplyr)
+library(skimr)
+library(DataExplorer)
+library(GGally)
+library(corrplot)
+
+#Python -> need some library which is not installed
+#Step 1 - Terminal -> pip install xyz;
+#Step 2 - Notebook -> import xyz <- we oad in our environment
+
+#Generate Synthetic Data
+
+set.seed(123) #the value generated once will be used forever
+n <- 200 # number of synthetic observations
+Data <- tibble(
+  age = sample(18:65,n,replace = TRUE), # age = np.random.ramdint(18,65)
+  income = (rnorm(n,mean = 50000 , sd = 15000)), # normalised distribution
+  gender = sample(c("Male","Female"),n,replace = TRUE),
+  purchased = sample(c("Yes","No"),n,replace = TRUE, prob=c(0.3,0.7)),
+  satisfaction_score = sample(1:10, n, replace = TRUE)
+)
+
+Data$income[sample(1:n, 10)] <- NA
+Data$satisfaction_score[sample(1:n, 10)] <- NA
+
+
+str(Data)
+glimpse(Data)
+summary(Data)
+
+colSums(is.na(Data))
+plot_missing(Data)
+
+hist(Data$age, col = 'lightblue', main = "Age Distribution")
+
+barplot(table(Data$gender), co = c("pink","lightblue"), main = "Gender")
+
+plot(Data$income ~ Data$age, xlab = "Age", ylab = "Income")
+
+cor(Data$age, Data$income, use = "complete.obs")
+numeric_data <- select(Data, age, income, satisfaction_score)
+cor_matrix <- cor(numeric_data)
+corrplot(cor_matrix, method="color", type = "upper")
+
+create_report(Data)
