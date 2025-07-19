@@ -1,0 +1,116 @@
+2025-07-19 18:19:06,801 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-19 18:19:06,884 - INFO - Model saved: model_NN_(units=64__layers=2__dropout=0.3)_20250719_181858.h5
+2025-07-19 18:19:44,088 - INFO - Scaler saved: scaler_20250719_181858.pkl
+2025-07-19 18:19:55,901 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True)
+2025-07-19 18:23:42,981 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-19 18:23:42,999 - INFO - Model saved: model_NN_(units=64__layers=2__dropout=0.3)_20250719_182342.h5
+2025-07-19 18:23:43,847 - INFO - Scaler saved: scaler_20250719_182342.pkl
+2025-07-19 18:24:38,860 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 18:24:39,502 - INFO - Predictions made: 614 samples, Positive class ratio: 0.8355
+2025-07-19 18:24:39,535 - INFO - Training Performance - Accuracy: 0.8257, F1 Score: 0.8856, ROC-AUC: 0.8237
+2025-07-19 18:25:13,035 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:25:13,445 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:15,736 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:16,104 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:46,134 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:46,541 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:49,409 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:49,782 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:50,436 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:50,803 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:51,284 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:51,656 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:28:52,045 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:28:52,410 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:29:14,662 - INFO - Submission file saved: submission_20250719_182914.csv
+2025-07-19 18:31:34,404 - INFO - Submission DataFrame created: 367 samples, Columns: ['Loan_ID', 'Loan_Status']
+2025-07-19 18:31:34,404 - INFO - Submission Loan_Status distribution: {'Y': 305, 'N': 62}
+2025-07-19 18:38:58,327 - INFO - Baseline Validation Performance - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 18:39:50,304 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:39:50,650 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:39:50,666 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:39:50,666 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:42:30,442 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:42:30,840 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:42:30,840 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:42:30,840 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:42:48,751 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:42:49,115 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:42:49,115 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:42:49,115 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:44:56,208 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:44:56,586 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:44:56,586 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:44:56,586 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:50:50,308 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-19 18:50:50,331 - INFO - Model saved: model_NN_(units=64__layers=2__dropout=0.3)_20250719_185049.h5
+2025-07-19 18:50:52,800 - INFO - Scaler saved: scaler_20250719_185049.pkl
+2025-07-19 18:50:53,716 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 18:50:54,100 - INFO - Predictions made: 614 samples, Positive class ratio: 0.8355
+2025-07-19 18:50:54,116 - INFO - Training Performance - Accuracy: 0.8257, F1 Score: 0.8856, ROC-AUC: 0.8237
+2025-07-19 18:50:57,516 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:50:57,953 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 18:51:01,274 - INFO - Submission DataFrame created: 367 samples, Columns: ['Loan_ID', 'Loan_Status']
+2025-07-19 18:51:01,275 - INFO - Submission Loan_Status distribution: {'Y': 305, 'N': 62}
+2025-07-19 18:51:07,025 - INFO - Baseline Validation Performance - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 18:51:19,879 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:51:20,341 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:51:20,342 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:51:20,343 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:51:20,876 - INFO - Predictions made: 367 samples, Positive class ratio: 1.0000
+2025-07-19 18:51:20,878 - INFO - Edge Case Zero Income - Positive class ratio: 1.0000
+2025-07-19 18:51:20,878 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:54:23,668 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:54:24,296 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 18:54:24,296 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 18:54:24,296 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:54:25,023 - INFO - Predictions made: 367 samples, Positive class ratio: 1.0000
+2025-07-19 18:54:25,023 - INFO - Edge Case Zero Income - Positive class ratio: 1.0000
+2025-07-19 18:54:25,023 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:54:25,781 - INFO - Predictions made: 367 samples, Positive class ratio: 0.9755
+2025-07-19 18:54:25,782 - INFO - Edge Case Missing Credit History - Positive class ratio: 0.9755
+2025-07-19 18:54:56,116 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 18:54:56,545 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8256
+2025-07-19 18:54:56,545 - INFO - Noise Test - Positive class ratio: 0.8256
+2025-07-19 18:55:12,697 - INFO - Adversarial Test - Accuracy: 0.8862, F1 Score: 0.9222, ROC-AUC: 0.8854
+2025-07-19 18:57:07,884 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 18:57:08,205 - INFO - Predictions made: 123 samples, Positive class ratio: 0.7805
+2025-07-19 18:57:08,220 - INFO - Training Performance - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 19:00:37,139 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-19 19:00:37,165 - INFO - Model saved: model_NN_(units=64__layers=2__dropout=0.3)_20250719_190036.h5
+2025-07-19 19:00:37,536 - INFO - Scaler saved: scaler_20250719_190036.pkl
+2025-07-19 19:00:37,932 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 19:00:38,300 - INFO - Predictions made: 614 samples, Positive class ratio: 0.8355
+2025-07-19 19:01:07,638 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-07-19 19:01:07,654 - INFO - Model saved: model_NN_(units=64__layers=2__dropout=0.3)_20250719_190107.h5
+2025-07-19 19:01:08,059 - INFO - Scaler saved: scaler_20250719_190107.pkl
+2025-07-19 19:01:11,355 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 19:01:11,747 - INFO - Predictions made: 614 samples, Positive class ratio: 0.8355
+2025-07-19 19:01:11,763 - INFO - Training Performance - Accuracy: 0.8257, F1 Score: 0.8856, ROC-AUC: 0.8237
+2025-07-19 19:01:12,541 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 19:01:12,953 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8311
+2025-07-19 19:01:13,966 - INFO - Submission DataFrame created: 367 samples, Columns: ['Loan_ID', 'Loan_Status']
+2025-07-19 19:01:13,967 - INFO - Submission Loan_Status distribution: {'Y': 305, 'N': 62}
+2025-07-19 19:01:18,935 - INFO - Baseline Validation Performance - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 19:01:22,093 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 19:01:22,509 - INFO - Predictions made: 367 samples, Positive class ratio: 0.2371
+2025-07-19 19:01:22,509 - INFO - Edge Case Max LoanAmount - Positive class ratio: 0.2371
+2025-07-19 19:01:22,511 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 19:01:23,024 - INFO - Predictions made: 367 samples, Positive class ratio: 1.0000
+2025-07-19 19:01:23,026 - INFO - Edge Case Zero Income - Positive class ratio: 1.0000
+2025-07-19 19:01:23,026 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 19:01:23,520 - INFO - Predictions made: 367 samples, Positive class ratio: 0.9755
+2025-07-19 19:01:23,520 - INFO - Edge Case Missing Credit History - Positive class ratio: 0.9755
+2025-07-19 19:01:26,054 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: False, Preprocessed: False)
+2025-07-19 19:01:26,511 - INFO - Predictions made: 367 samples, Positive class ratio: 0.8283
+2025-07-19 19:01:26,511 - INFO - Noise Test - Positive class ratio: 0.8283
+2025-07-19 19:01:28,543 - INFO - Adversarial Test - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8861
+2025-07-19 19:01:34,927 - INFO - Starting pipeline for NN (units=64, layers=2, dropout=0.3) (Training: True, Preprocessed: True)
+2025-07-19 19:01:35,202 - INFO - Predictions made: 123 samples, Positive class ratio: 0.7805
+2025-07-19 19:01:35,218 - INFO - Training Performance - Accuracy: 0.8943, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 19:05:50,354 - INFO - Validation Metrics - Accuracy: 0.8943, Precision: 0.8750, Recall: 0.9882, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 19:06:30,475 - INFO - Validation Metrics - Accuracy: 0.8943, Precision: 0.8750, Recall: 0.9882, F1 Score: 0.9282, ROC-AUC: 0.8870
+2025-07-19 19:07:51,749 - INFO - Confusion Matrix:
+          Predicted N  Predicted Y
+Actual N           26           12
+Actual Y            1           84
